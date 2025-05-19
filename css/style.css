@@ -1,0 +1,39 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    background-image: url("../img/pngtree-tranquil-universe-background-picture-image_1337175.jpg");
+}
+h1 {
+    color: rgb(236, 43, 169);
+    font-size: 3em;
+}
+h2 {
+    color: seashell;
+    text-decoration: dashed underline;
+    text-decoration-color: black;
+}
+p> button {
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+}
+#astros {
+    width: 200%;
+    cursor: pointer;
+    font-size: 15px;
+}
+#astroImg {
+    width: 300px;
+    margin-left: 50%;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}

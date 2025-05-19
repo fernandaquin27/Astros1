@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Astros</title>
+</head>
+<body>
+    <h1>El sistema solar</h1>
+   <p><button onclick="acercaDe()">Acerca del sistema solar</button> <button onclick="terminar ()">Terminar</button></p>
+   <hr>
+   
+   <h2><b>Seleccione el astro deseado</b></h2><br><br>
+   
+<div class="container">
+    <div>    
+    <select id="astros" onchange="mostrarAstros()" size="15" >
+   
+        <option value="./img/sol.jpg">Sol</option>
+        <option value="./img/mercurio.jpg">Mercurio</option>
+        <option value="./img/venus.jpg">Venus</option>
+        <option value="./img/tierra.jpg">La tierra</option>
+        <option value="./img/marte.jpg">Marte</option>
+        <option value="./img/asteroide.jpg">Asteroides</option>
+        <option value="./img/jupiter.jpg">Jupiter</option>
+        <option value="./img/saturno.jpg">Saturno</option>
+        <option value="./img/meteorito.jpg">Meteorito</option>
+        <option value="./img/neptuno.jpg">Neptuno</option>
+        <option value="./img/urano.jpg">Urano</option>
+        <option value="./img/pluton.jpg">Pluton</option>
+        <option value="./img/nave.jpg" checked>Nave espacial</option>
+        <option value="./img/luna.jpg">Luna</option>
+        <option value="./img/ss.jpg">Sistema solar</option>
+    </select>
+</div>
+<div>
+    <main>
+        <img id="astroImg" src="./img/nave.jpg" alt=" fotoNave">
+    </main>
+</div>
+</div>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
